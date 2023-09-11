@@ -1,7 +1,7 @@
 {
     "name": "Exchange Rates",
     "version": "1.0",
-    "manifest_version": 2,
+    "manifest_version": 3,
     "description": "Chrome extension to convert currencies",
     "browser_action": {
         "default_icon": "money.png",
