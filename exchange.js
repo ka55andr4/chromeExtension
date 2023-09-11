@@ -21,8 +21,8 @@ convert.addEventListener('click', () => {
     .then(response => response.json())
     .then(data => {
         const rate = data.rate;
-        const result = amountTotal * rate;
-        result.innerHTML = `${amount} ${currency} = ${result.toFixed(2)} USD`; 
+        const resultPrice = amountTotal * rate;
+        result.innerHTML = `${amount} ${currency} = ${resultPrice.toFixed(2)} USD`; 
     })
     .catch(error => {
         console.error('Request failed:', error);
