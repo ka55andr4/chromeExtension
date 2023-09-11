@@ -3,7 +3,7 @@
     "version": "1.0",
     "manifest_version": 3,
     "description": "Chrome extension to convert currencies",
-    "browser_action": {
+    "action": {
         "default_icon": "money.png",
         "default_popup": "index.html"
     }
