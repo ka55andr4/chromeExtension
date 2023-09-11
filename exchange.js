@@ -3,8 +3,8 @@ const currency = document.getElementById('currency');
 const convert = document.getElementById('convert');
 const result = document.getElementById('result');
 
-const apiKEY = ""
-const apiUrl= ""
+const apiKEY = "032JbYzW8X6bT9fawByFRg==xvJWOaW1DnSkr9UQ"
+const apiUrl= "https://api.api-ninjas.com/v1/exchangerate?pair=USD_"
 
 //convert button 
 convert.addEventListener('click', () => {
